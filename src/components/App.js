@@ -1,5 +1,5 @@
-import './App.css';
-import Home from '../Home';
+import '../css/App.css';
+import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
 import SearchPage from './SearchPage'

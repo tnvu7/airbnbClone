@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../css/Footer.css';
 import CopyrightIcon from '@mui/icons-material/Copyright';
 
 function Footer() {

@@ -1,6 +1,6 @@
 import { Button } from '@mui/material';
 import React, { useState } from 'react';
-import './Banner.css';
+import '../css/Banner.css';
 import Search from './Search';
 import { useNavigate } from 'react-router-dom';
 
