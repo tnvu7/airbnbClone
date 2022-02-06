@@ -1,0 +1,37 @@
+.card {
+    /* padding between cards */
+    margin: 10px;
+    border-radius: 10px;
+    /* shrink everything in the card width */
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    /* works with hover, makes it smooth transition */
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.06);
+}
+.card > img {
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+}
+.card_info {
+    /* removes default top padding of text info */
+    margin-top: -9px; 
+    border-radius: 10px;
+    padding: 20px;
+    border: 1;
+}
+.card_info > h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.card_info > h4 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
